@@ -8,3 +8,10 @@
 }
 
 
+body {
+    background: var(--brownchoco);
+    color: var(--queenpink);
+    display: block;
+    justify-items: center;
+    align-items: center;
+}

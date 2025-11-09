@@ -1,10 +1,12 @@
-:root {
-    /* Theme color palette */
-    --jacarta: #3a345b;
-    --queenpink: #f3c8dd;
-    --middlepurple: #d183a9;
-    --oldlavender: #71557a;
-    --brownchoco: #4b1535; 
+.box {
+    width: 100px;
+    height: 100px;
+    background: var(--queenpink);
 }
 
-
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: center;
+}
